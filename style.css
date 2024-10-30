@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 600px;
+    background-image: url("/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 941px;
+    background-color: black;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+body {
+    height: 1000px;
+    background-color: black;
+}
+
+
+.img_1 {
+    width: 329px;
+    background: aqua;
+    padding: 20px;
+    border-radius: 93px 93px 59px 59px;
+    transition-property: background border;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .3s;
+
+}
+
+.img_1:hover {
+    border: 6px solid orange;
+    background: blue;
+}
+
+.bio {
+    color: white;
+    font-family: 'Nerko One', cursive;
+    font-size: 45px;
+
+}
+
+.m-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    background-color: black;
+    border: .1px solid white;
+    color: white;
+    padding: 10px 0;
+    font-size: 10px;
+    margin: 0 4px;
+}
+
+main {
+    margin: 36px 1px 1px 1px;
+}
+
+.ch_1 {
+    height: 288px;
+    border: 0.2px solid white;
+    margin: 4px 4px 1px 4px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-2 {
+    width: 200px;
+    margin: 26px 1px 1px 1px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.img-3 {
+    width: 200px;
+    margin: 26px 1px 1px 1px;
+    border-radius: 100px;
+}
+
+.ch-2 {
+    text-decoration: none;
+    margin: 10px 28px;
+    color: white;
+    font-size: 20px;
+}
+
+.ch-3 {
+    text-decoration: none;
+    margin: 10px 53px;
+    color: white;
+    font-size: 20px;
+}
+
+.fa-brands {
+    color: white;
+}
+
+footer {
+    height: 150px;
+    margin: 2px 4px;
+    border: .1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pg-1 img{
+    width: 80%;
+    border: 2px solid white;
+}
+.pg-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 140px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pg-1 p{
+    color: white;
+    text-decoration: none;
+    font-family: 'Nerko One', cursive;
+}
+
+@media screen and (max-width: 500px) {
+    .img_1 {
+        width: 250px;
+        background: cyan;
+        padding: 20px;
+        border-radius: 93px 93px 59px 59px;
+        transition-property: background border;
+        transition-duration: 3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: .3s;
+
+    }
+
+    .bio {
+        color: white;
+        font-family: 'Nerko One', cursive;
+        font-size: 34px;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .ch_1 {
+        height: 288px;
+        border: 0.2px solid white;
+        margin: 4px 4px 1px 4px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .img-2 {
+        width: 100px;
+        margin: 26px 1px 1px 1px;
+        border-radius: 100px;
+        background-color: white;
+    }
+
+    .img-3 {
+        width: 100px;
+        margin: 26px 1px 1px 1px;
+        border-radius: 100px;
+    }
+
+    .ch-2 {
+        text-decoration: none;
+        margin: 10px 28px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .ch-3 {
+        text-decoration: none;
+        margin: 10px 53px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .lau {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .bio {
+        color: white;
+        font-family: 'Nerko One', cursive;
+        font-size: 28px;
+
+    }
+}
+@media screen and (max-width:335px) {
+    .bio {
+        color: white;
+        font-family: 'Nerko One', cursive;
+        font-size: 25px;
+
+    }
+}
+@media screen and (max-width:300px) {
+    .bio {
+        color: white;
+        font-family: 'Nerko One', cursive;
+        font-size: 20px;
+
+    }
+
+    .img_1 {
+        width: 200px;
+        background: aqua;
+        padding: 20px;
+        border-radius: 93px 93px 59px 59px;
+        transition-property: background border;
+        transition-duration: 3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: .3s;
+    
+    }
+    
+    .img_1:hover {
+        border: 6px solid orange;
+        background: blue;
+    }
+    .m-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 12px;
+        background-color: black;
+        border: .1px solid white;
+        color: white;
+        padding: 10px 0;
+        font-size: 5px;
+        margin: 0 4px;
+    }
+    .ch-2 {
+        text-decoration: none;
+        margin: 10px 28px;
+        color: white;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .ch-3 {
+        text-decoration: none;
+        margin: 10px 53px;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+    }
+    .lau{
+        width: 118px;
+    }
+    
+}
+@media screen and (max-width:250px) {
+    .img_1 {
+        width: 170px;
+        background: aqua;
+        padding: 20px;
+        border-radius: 93px 93px 59px 59px;
+        transition-property: background border;
+        transition-duration: 3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: .3s;
+    
+    }
+    
+    .img_1:hover {
+        border: 6px solid orange;
+        background: blue;
+    }
+}
+@media screen and (max-width:235px) {
+    .lau{
+        width: 108px;
+    }
+    .bio {
+        color: white;
+        font-family: 'Nerko One', cursive;
+        font-size: 17px;
+
+    }
+}
+@media screen and (max-width:220px) {
+    .lau{
+        width: 100px;
+    }
+    .bio {
+        color: white;
+        font-family: 'Nerko One', cursive;
+        font-size: 17px;
+
+    }
+    .img-2 {
+        width: 90px;
+        margin: 26px 1px 1px 1px;
+        border-radius: 100px;
+        background-color: white;
+    }
+
+    .img-3 {
+        width: 90px;
+        margin: 26px 1px 1px 1px;
+        border-radius: 100px;
+    }
+}
+
+@media screen and (max-width:200px) {
+    .lau{
+        width: 90px;
+    }
+    .bio {
+        color: white;
+        font-family: 'Nerko One', cursive;
+        font-size: 15px;
+
+    }
+    .img-2 {
+        width: 80px;
+        margin: 26px 1px 1px 1px;
+        border-radius: 100px;
+        background-color: white;
+    }
+
+    .img-3 {
+        width: 80px;
+        margin: 26px 1px 1px 1px;
+        border-radius: 100px;
+    }
+    .img_1 {
+        width: 150px;
+        background: aqua;
+        padding: 20px;
+        border-radius: 93px 93px 59px 59px;
+        transition-property: background border;
+        transition-duration: 3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: .3s;
+    
+    }
+    
+    .img_1:hover {
+        border: 6px solid orange;
+        background: blue;
+    }
+}
